@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 20vh;
+    width: 100%;
+    box-shadow: 0px 2px 4px;
+    text-indent: 5%;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.header h1{
+    padding-top: 2%;
+    text-transform: uppercase;
+    font-family:verdana;
+}
+
+body{
+    background-color: rgb(173, 74, 74);
+    
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form{
+    height: fit-content;
+    width: fit-content;
+    margin: 4%;
+    line-height: 2.5;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: medium;
+    color: #fff;
+}
+
+.outer{
+    display: block;
+    margin-right: 0%;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 2%;
+}
+
+.inner{
+    
+    display: inline-block;
+    line-height: 2;
+    
+}
+
+.inner input{
+    height: 40px;
+}
+.form button{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: transparent;    
+}
+
+.form button img{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+   max-width: 100%;
+}
+
+.box{
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    text-align: left;
+    line-height: normal;
+    box-shadow:2px 4px 8px black;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.box p{
+    margin-top: 3%;
+    width: 100%;
+    font-size:20px;
+    text-indent: 1%;
+    font-weight:bolder;
+}
+
+.box-inp input{
+    height: 5vh;
+    width: 40vh;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+.box-inp{
+    display: flex;
+    margin-top: 5%;
+}
+
+.box-check{
+    margin-top: 5%;
+    margin-left: 1%;
+    text-transform: capitalize;
+}
+
+.box-button{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.box-button button{
+    height: 5vh;
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    font-size: medium;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: transparent;
+    border-radius:20px;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) 
+{
+    body{
+      height: 120vh;
+      overflow-x: hidden;
+      
+    }
+
+    .header h1{
+        padding-top: 12%;
+    }
+
+    .form p{
+        line-height: normal;
+        margin-top: 5%;
+    }
+
+    .form button{
+        margin-top: 5%;
+    }
+   .box{
+    width: 95%;
+    top:105%;
+    left: 0;
+    margin-left: 2.5%;
+   }
+
+   .box p{
+    width: auto;
+    text-align: center;
+   }
+
+   .box-inp{
+    margin-top: 1%;
+    
+   }
+
+   .box-inp input{
+    width: 180px;
+    margin: 2%;
+    outline-style: solid;
+
+   }
+
+   
+}
